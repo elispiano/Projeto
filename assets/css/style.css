@@ -18,3 +18,14 @@
     font: inherit;
     vertical-align: baseline;
 }
+
+.container {
+    width: 1024px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+}
