@@ -5,7 +5,6 @@ header section{
 
 header nav ul{
     display: flex;
-    list-style: none;
     gap: 30px;
 }
 

@@ -5,6 +5,7 @@
 @import url(header.css);
 @import url(buttons.css);
 @import url(main.css);
+@import url(footer.css);
 
 /* Reset Css */
 *{
@@ -15,13 +16,19 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-
     box-sizing: border-box;
     font: inherit;
     vertical-align: baseline;
+    list-style: none;
 }
 
-.container {
+body{
+    background-image: url(../img/bolha-background.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    /* background-size: cover; */
+}
+.container{
     width: 1024px;
     margin: 30px auto;
     display: flex;
